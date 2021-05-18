@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.home{
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 1200px;
+    margin:0px auto;
+}
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+}
+.header__logo{
+    font-family: 'Pacifico', cursive;
+    font-size:50px;
+}
+.header__nav{
+    display: flex;
+    list-style-type: none;
+    height: 25px;
+}
+.header__item{
+    text-decoration: none;
+    color:#262626;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size:16px;
+}
+.header__item-borderTop-redline{
+    padding-top: 8px;
+}
+.header__item-borderTop-redline + .header__item-borderTop-redline{
+    margin-left:35px;
+}
+.header__item-borderTop-redline:hover{
+    border-top:3px solid #FF6033;
+}
+.main__items{
+    margin-top:215px;
+    max-width: 370px;
+    margin-bottom: 290px;
+}
+.main__title{
+    font-weight: 900;
+    font-size: 50px;
+    margin:0px 0px 35px 0px;
+}
+.main__text{
+    font-size: 17px;
+    font-weight: 300;
+    margin:0px 0px 35px 0px;
+}
+.btn{
+    background-color: #FF6033;
+    border:none;
+    padding:20px 25px;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 300;
+    color:#ffffff;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(0,0,0,0.35); 
+    box-shadow: 0px 5px 10px 2px rgba(0,0,0,0.35);
+    height: 55px;
+}
+.main__button:active{
+    border:2px solid black;
+}
+
+.footer__item{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+.footer__icon{
+    color:#000000;
+    font-size: 30px;
+}
+.about{
+    background-color:#00B9B9;
+}
+.about__plateImg{
+    
+}
+.about__items{
+    display:flex;
+    padding-top:70px;
+    justify-content: space-between ;
+}
+.about__content{
+    max-width: 500px;
+    margin-top:130px;
+}
+.about__title{
+    font-size:90px;
+    color:#ffffff;
+    font-weight: 700;
+    margin:0px 40px 0px 0px;
+}
+.about__text{
+    color:#ffffff;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+}
